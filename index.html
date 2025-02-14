@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fading Footprints: A Tale of Lost Wildlife</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/2.2.1/scrollama.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+</head>
+<body>
+  <div>
+    <p class="overlay-text">
+        <span class="name">Fading Footprints:<br>A Tale of Lost Wildlife & Species on the Brink</span>
+        Welcome to our interactive storytelling project, where data visualization meets conservation awareness. In this project,</br></br>
+
+        We explore the profound impact of species extinction, using scrolly-telling drawing inspiration from *Reuters On the Brink*. </br></br>
+        Using custom visualizations like flower glyphs to represent IUCN summary statistics, we highlight diverse and iconic species under conservation, showcasing the effectiveness of various measures. </br></br>
+        Through immersive scrollytelling, we delve into the Yellowstone gray wolf case study, illustrating the ecological consequences of their extinction and the transformative changes following their reintroduction.
+    </p>
+    <img src="images/Impact_vis/blue_back.svg" class="back">
+    <img src="images/Impact_vis/top.svg" class="back">
+</div>
+    
+    <section id="scrolly">
+        <div class="sticky-thing">
+            <img src="images/Impact_vis/background.svg" class="background-image">
+            <img src="images/Impact_vis/Carolina Parakeet.svg" alt="Parakeet 1" class="parakeet parakeet-left">
+            <img src="images/Impact_vis/pyrenean ibex.svg" class="pyrenean-ibex">
+            <img src="images/Impact_vis/vaquita.svg" class="vaquita">
+            <img src="images/Impact_vis/northern white rhino.svg" class="rhino">
+            <img src="images/Impact_vis/Acalypha wilderi.svg" class="acalypha">
+        </div>
+
+        <article>
+            <div class="space" data-step="4"></div>
+            <div class="step step1" data-step="1">
+                <p>The Carolina Parakeet was a vibrant parrot native to the southeastern U.S., known for its green body, yellow head, and orange face. 
+                  Extinction in the early 20th century was caused by habitat loss, hunting. 
+                  Its loss is a stark reminder of human impact on biodiversity.</p>
+            </div>
+            <div class="space" data-step="2"></div>
+            <div class="step step2" data-step="3">
+                <p>The Pyrenean Ibex was known for its strong, curved horns and ability to navigate rugged terrain. 
+                  Extinction occurred in 2000 due to overhunting and habitat loss. 
+                  Attempts to clone it in 2003 briefly revived the species, but the clone survived only a few minutes, making it the first species to go extinct twice. 
+                </p>
+            </div>
+            <div class="space" data-step="4"></div>
+            <div class="step step3" data-step="5">
+
+                <p>The Vaquita is the world's smallest marine mammal, known for its shy nature and distinctive facial markings.
+                   With fewer than 10 individuals remaining, its decline is primarily due to bycatch in illegal fishing nets, emphasizing the urgent need for conservation.</p>
+            </div>
+            <div class="space" data-step="6"></div>
+            <div class="step step4" data-step="7">
+                <p>The Northern White Rhino is functionally extinct, with only two known females remaining as of today, both unable to reproduce. 
+                  Intensive conservation efforts, including advanced reproductive technologies, aim to save the species using preserved genetic material.</p>
+            </div>
+            <div class="space" data-step="8"></div>
+            <div class="step step5" data-step="9">
+                <p>Acalypha wilderi is a small shrub known for its medicinal properties and role in supporting local ecosystems. 
+                  With 38% of the world’s trees at risk of extinction according to the first Global Tree Assessment conducted in 2024, its survival underscores the urgent need for conservation and habitat restoration.
+                </p>
+            </div>
+            <div class="space" data-step="10"></div>
+            <div class="space" data-step="10"></div>
+        </article>
+    </section>
+<div><p class="center-text1">
+
+  <span class="name">Custom Visualization: Flower Glyph Representation of IUCN Assessment Data</span> </br>
+  <b>Overview:</b> This visualization uses summary statistics from the International Union for Conservation of Nature (IUCN) to present trends in species vulnerability over time. 
+  The design combines traditional graph elements with a creative flower glyph to make the data more engaging and intuitive.
+</br>
+</br>
+  <b>Axes:</b> </br>
+  
+  <b>X-axis:</b> Represents the year of assessment. </br>
+  <b>Y-axis:</b> Represents the total number of assessments conducted in each year.</br></br>
+
+  <b>Flower Glyph:</b>
+  Each year is represented by a flower glyph. The petals symbolize specific subtypes of vulnerability (e.g., endangered, critically endangered), and their size reflects the number of organisms in each subtype.
+</br>
+</br>
+  <b>Interactive Button:</b>
+  A button at the top switches the Y-axis view from Total Assessments to Difference by Year, allowing users to explore yearly changes in assessments.
+  </br></br>
+
+
+  <b>Visual Design:</b>
+  
+  The flower glyph petals are color-coded by subtype for clarity.
+  Hovering over a flower reveals a tooltip with detailed subtype data, enhancing the user experience with precise information.
+    </p>
+    </div>
+    
+    
+    <div id="cont">
+        <div id="container">
+
+            <div id="visualization">          
+              <button id="updateChart" value="0">Difference by Year</button>
+            </div>
+            <div id="tooltip1"></div>
+        </div>
+    </div>
+
+    <div class="space1">
+      <div class="transparent-box">
+        <p>Earth is home to all species, each vital to the balance of ecosystems. However, human actions like habitat destruction and pollution have driven many species to extinction and endangered others. It’s our responsibility to protect the planet by supporting conservation, using sustainable practices, and advocating for stronger protections for wildlife. Together, we can help ensure a thriving future for all.</p>
+      </br>
+        <p><strong>Let’s protect our planet—because Earth belongs to all.</strong></p>
+      </div>
+    </div>
+
+
+    <div id="globe1">
+        <svg id="globe" width="800" height="800"></svg>
+        <div id="content">
+            <div class="stepR" data-step="1"></div>
+            <div class="stepR" data-step="2"></div>
+            <div class="stepR" data-step="3"></div>
+        </div>
+        
+        
+        <div id="infoBox">
+            <span id="closeBox">&times;</span> 
+            <div class="column image-column">
+                <h1 id="dynamicTitle"></h1>
+                <img src="" alt="Clicked Circle Image" />
+            </div>
+            <div class="column text-column">
+                <h1>Information Box</h1>
+                <p>This is a detailed explanation or visualization of your topic.</p>
+                <div class="content">
+                 
+                </div>
+                <div id="bottom-navigation">
+                    <button id="backArrow" class="nav-button">← Previous</button>
+                    <button id="nextArrow" class="nav-button">Next →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="transition-divider">
+      <div class="transition-background">
+          <div class="transition-heading">
+              <h1>Case Study: Grey Wolves in Yellowstone</h1>
+          </div>
+      </div>
+    </section>
+
+    <div class="story-container">
+      <section class="intro">
+        <p>
+          To understand the gravity of biodiversity loss, let us look at a case study from Yellowstone National Park. In the early 20th century, grey wolves were eradicated from the National Park due to extensive hunting and predator control programs. This triggered a cascading set of events which can be explored in a scrolly-telling visualization below.
+        </p>
+      </section>
+    
+      <div id="wolf-container">
+        <img id="wolf-image" src="/svg/grey_wolf_face.svg" alt="Grey Wolf" />
+      </div>
+    
+      <div class="section" id="step1">
+        <div class="parallax hidden" style="background-image: url('images/hunting_grey_wolves.png');"></div>
+        <p class="tooltip2" data-tooltip="By the early 20th century, grey wolves were nearly eradicated from Yellowstone due to extensive hunting and eradication efforts.">
+          Excessive hunting of Grey Wolves
+        </p>
+      </div>
+      <div class="section" id="step2">
+        <div class="parallax hidden" style="background-image: url('images/endangered_grey_wolf.png');"></div>
+        <p class="tooltip2" data-tooltip="This led to their listing as an endangered species in 1974 under the Endangered Species Act, highlighting the critical need for conservation.">
+          Endangered status of Grey Wolves
+        </p>
+      </div>
+      <div class="section" id="step3">
+        <div class="parallax hidden" style="background-image: url('images/extinct_grey_wolf.png');"></div>
+        <p class="tooltip2" data-tooltip="But before long, the complete removal of grey wolves from Yellowstone by 1926 disrupted the natural predator-prey dynamics, leading to significant ecological imbalances.">
+          Extinction of Grey Wolves
+        </p>
+      </div>
+      <div class="section" id="step4">
+        <div class="parallax hidden" style="background-image: url('images/overpopulation_elk_deer.png');"></div>
+        <p class="tooltip2" data-tooltip="Without wolves to regulate their numbers, elk populations surged, resulting in overgrazing. This intense grazing pressure severely affected vegetation, particularly young willow and aspen trees.">
+          Overpopulation of Elk and Deer
+        </p>
+      </div>
+      <div class="section" id="step5">
+        <div class="parallax hidden" style="background-image: url('images/vegetation_loss_river_degradation.png');"></div>
+        <p class="tooltip2" data-tooltip="The overgrazing by elk led to the degradation of riparian zones, causing erosion and altered river courses. The loss of vegetation destabilized riverbanks, impacting water quality and aquatic habitats.">
+          Vegetation Loss and Degraded River System
+        </p>
+      </div>
+      <div class="section" id="step6">
+        <div class="parallax hidden" style="background-image: url('images/decline_in_biodiversity.png');"></div>
+        <p class="tooltip2" data-tooltip="The altered landscape and diminished vegetation adversely affected various species, including beavers, songbirds, and fish, leading to a noticeable decline in biodiversity.">
+          Decline in Biodiversity
+        </p>
+      </div>
+    </div>   
+  
+    <div>
+      <section class="intro">
+        <h2>Timeline of Wolf Conservation</h2>
+        <p>The absence of grey wolves created an ecological imbalance and disrupted the local ecosystem. 
+          Their reintroduction was vital to restoring balance, as wolves regulate herbivore populations, 
+          allowing vegetation to recover, soil to stabilize, and biodiversity to flourish, ultimately 
+          reviving the health of the entire ecosystem.</p>
+      </section>
+
+      <section id="timeline-container" class="hidden" style="background-image: url('images/ys2.png');" >
+        <svg id="timeline" width="800" height="200"></svg>
+      </section>
+      
+      <section class="intro">
+        <h2>Transformative Effects on the Ecosystem</h2>
+        <p>Let's explore how the reintroduction of grey wolves positively transformed the ecosystem, 
+          restoring balance, reviving vegetation, and fostering biodiversity across Yellowstone.</p>
+      </section>
+      <div class="section1">
+        <div class="parallax hidden" style="background-image: url('images/deer.webp');"></div>
+        <p class="tooltip3" data-tooltip="Wolves control the overpopulation of herbivores like deer and elk. 
+        By preying on these species, 
+        wolves prevent excessive grazing, which would otherwise deplete vegetation.">
+          Deer population reduced by 60%
+        </p>
+      </div>
+    
+      <div class="section1">
+        <div class="parallax hidden" style="background-image: url('images/river.webp');"></div>
+        <p class="tooltip3" data-tooltip="With reduced grazing pressure, vegetation along riverbanks can recover and thrive. 
+        This leads to better soil stability and reduced erosion, positively impacting water quality.">
+          Over-grazing has significantly declined
+        </p>
+      </div>
+    
+      <div class="section1">
+        <div class="parallax hidden" style="background-image: url('images/Healthier\ river\ ecosystem.webp');"></div>
+        <p class="tooltip3" data-tooltip="Restored vegetation supports a diverse range of aquatic and terrestrial life. River 
+        ecosystems benefit from the improved health of surrounding habitats, supporting fish and other species.">
+          Healthier river ecosystem
+        </p>
+      </div>
+    
+      <div class="section1">
+        <div class="parallax hidden" style="background-image: url('images/fox.webp');"></div>
+        <p class="tooltip3" data-tooltip="The presence of wolves regulates the population of 
+        mid-level predators like coyotes, balancing the ecosystem and reducing competition for smaller prey species.">
+          Coyote population stabilized
+        </p>
+      </div>
+    
+      <div class="section1">
+        <div class="parallax hidden" style="background-image: url('images/animal_behaviour.webp');"></div>
+        <p class="tooltip3" data-tooltip="Wolves’ presence changes animal behavior, 
+        prompting herbivores to avoid certain areas, allowing ecosystems to regenerate and achieve greater 
+        biodiversity.">
+          Changed animal behaviors and trophic cascade effects
+        </p>
+      </div>
+    </div>
+    <section class="intro">
+      <p>
+        The story of how the extinction of grey wolves caused an imbalance and their reintroduction led to 
+        positive changes in Yellowstone shows how key species play a major role. This project not only teaches 
+        but also motivates people to work together to protect biodiversity for future generations.
+      </p>
+    </section>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="script.js"></script>
+</body>
+</html>
