@@ -1,0 +1,1025 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Panda",
+                "Country": "China"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            73.499734,
+                            53.56086
+                        ],
+                        [
+                            135.083292,
+                            53.56086
+                        ],
+                        [
+                            135.083292,
+                            18.197701
+                        ],
+                        [
+                            73.499734,
+                            18.197701
+                        ],
+                        [
+                            73.499734,
+                            53.56086
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "India"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            68.176645,
+                            37.084107
+                        ],
+                        [
+                            97.402561,
+                            37.084107
+                        ],
+                        [
+                            97.402561,
+                            6.554607
+                        ],
+                        [
+                            68.176645,
+                            6.554607
+                        ],
+                        [
+                            68.176645,
+                            37.084107
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Bangladesh"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            88.084422,
+                            26.630984
+                        ],
+                        [
+                            92.672721,
+                            26.630984
+                        ],
+                        [
+                            92.672721,
+                            20.743307
+                        ],
+                        [
+                            88.084422,
+                            20.743307
+                        ],
+                        [
+                            88.084422,
+                            26.630984
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Nepal"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            80.0582,
+                            30.422716
+                        ],
+                        [
+                            88.201525,
+                            30.422716
+                        ],
+                        [
+                            88.201525,
+                            26.347
+                        ],
+                        [
+                            80.0582,
+                            26.347
+                        ],
+                        [
+                            80.0582,
+                            30.422716
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Bhutan"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            88.746472,
+                            28.246987
+                        ],
+                        [
+                            92.125232,
+                            28.246987
+                        ],
+                        [
+                            92.125232,
+                            26.702016
+                        ],
+                        [
+                            88.746472,
+                            26.702016
+                        ],
+                        [
+                            88.746472,
+                            28.246987
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Myanmar"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            92.303234,
+                            28.547835
+                        ],
+                        [
+                            101.170079,
+                            28.547835
+                        ],
+                        [
+                            101.170079,
+                            10.134186
+                        ],
+                        [
+                            92.303234,
+                            10.134186
+                        ],
+                        [
+                            92.303234,
+                            28.547835
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Malaysia"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            100.085756,
+                            7.363417
+                        ],
+                        [
+                            119.181903,
+                            7.363417
+                        ],
+                        [
+                            119.181903,
+                            -4.755745
+                        ],
+                        [
+                            100.085756,
+                            -4.755745
+                        ],
+                        [
+                            100.085756,
+                            7.363417
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Indonesia"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            95.293026,
+                            5.47989
+                        ],
+                        [
+                            141.03385,
+                            5.47989
+                        ],
+                        [
+                            141.03385,
+                            -10.929061
+                        ],
+                        [
+                            95.293026,
+                            -10.929061
+                        ],
+                        [
+                            95.293026,
+                            5.47989
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Russia"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            19.662171,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            81.856374
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Canada"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -141.0,
+                            83.113883
+                        ],
+                        [
+                            -52.619408,
+                            83.113883
+                        ],
+                        [
+                            -52.619408,
+                            41.676556
+                        ],
+                        [
+                            -141.0,
+                            41.676556
+                        ],
+                        [
+                            -141.0,
+                            83.113883
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Tiger",
+                "Country": "Thailand"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            97.345286,
+                            20.464833
+                        ],
+                        [
+                            105.636812,
+                            20.464833
+                        ],
+                        [
+                            105.636812,
+                            5.631932
+                        ],
+                        [
+                            97.345286,
+                            5.631932
+                        ],
+                        [
+                            97.345286,
+                            20.464833
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Greenland"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.297,
+                            83.627
+                        ],
+                        [
+                            -12.208,
+                            83.627
+                        ],
+                        [
+                            -12.208,
+                            59.777
+                        ],
+                        [
+                            -73.297,
+                            59.777
+                        ],
+                        [
+                            -73.297,
+                            83.627
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Iceland"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -24.5466,
+                            66.5432
+                        ],
+                        [
+                            -13.4957,
+                            66.5432
+                        ],
+                        [
+                            -13.4957,
+                            63.407
+                        ],
+                        [
+                            -24.5466,
+                            63.407
+                        ],
+                        [
+                            -24.5466,
+                            66.5432
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Norway"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4.0875,
+                            71.1852
+                        ],
+                        [
+                            31.0176,
+                            71.1852
+                        ],
+                        [
+                            31.0176,
+                            57.8097
+                        ],
+                        [
+                            4.0875,
+                            57.8097
+                        ],
+                        [
+                            4.0875,
+                            71.1852
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Sweden"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            10.8105,
+                            69.0595
+                        ],
+                        [
+                            24.1668,
+                            69.0595
+                        ],
+                        [
+                            24.1668,
+                            55.3371
+                        ],
+                        [
+                            10.8105,
+                            55.3371
+                        ],
+                        [
+                            10.8105,
+                            69.0595
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Finland"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            19.4508,
+                            70.0963
+                        ],
+                        [
+                            31.5161,
+                            70.0963
+                        ],
+                        [
+                            31.5161,
+                            59.8069
+                        ],
+                        [
+                            19.4508,
+                            59.8069
+                        ],
+                        [
+                            19.4508,
+                            70.0963
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Russia"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            19.662171,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            81.856374
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Arctic Fox",
+                "Country": "Alaska (USA)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.148909,
+                            71.5388
+                        ],
+                        [
+                            -129.974167,
+                            71.5388
+                        ],
+                        [
+                            -129.974167,
+                            51.214183
+                        ],
+                        [
+                            -179.148909,
+                            51.214183
+                        ],
+                        [
+                            -179.148909,
+                            71.5388
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Siberian Crane",
+                "Country": "Russia"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            19.662171,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            81.856374
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Siberian Crane",
+                "Country": "China"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            73.499734,
+                            53.56086
+                        ],
+                        [
+                            135.083292,
+                            53.56086
+                        ],
+                        [
+                            135.083292,
+                            18.197701
+                        ],
+                        [
+                            73.499734,
+                            18.197701
+                        ],
+                        [
+                            73.499734,
+                            53.56086
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Siberian Crane",
+                "Country": "Mongolia"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            87.751264,
+                            52.154296
+                        ],
+                        [
+                            119.921326,
+                            52.154296
+                        ],
+                        [
+                            119.921326,
+                            41.59736
+                        ],
+                        [
+                            87.751264,
+                            41.59736
+                        ],
+                        [
+                            87.751264,
+                            52.154296
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Siberian Crane",
+                "Country": "Kazakhstan"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            46.466445,
+                            55.442741
+                        ],
+                        [
+                            87.315547,
+                            55.442741
+                        ],
+                        [
+                            87.315547,
+                            40.58581
+                        ],
+                        [
+                            46.466445,
+                            40.58581
+                        ],
+                        [
+                            46.466445,
+                            55.442741
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Siberian Crane",
+                "Country": "India"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            68.176645,
+                            37.084107
+                        ],
+                        [
+                            97.402561,
+                            37.084107
+                        ],
+                        [
+                            97.402561,
+                            6.554607
+                        ],
+                        [
+                            68.176645,
+                            6.554607
+                        ],
+                        [
+                            68.176645,
+                            37.084107
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Siberian Crane",
+                "Country": "Iran"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            44.109225,
+                            39.713003
+                        ],
+                        [
+                            63.317937,
+                            39.713003
+                        ],
+                        [
+                            63.317937,
+                            25.063255
+                        ],
+                        [
+                            44.109225,
+                            25.063255
+                        ],
+                        [
+                            44.109225,
+                            39.713003
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Beluga Whale",
+                "Country": "Canada"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -141.0,
+                            83.113883
+                        ],
+                        [
+                            -52.619408,
+                            83.113883
+                        ],
+                        [
+                            -52.619408,
+                            41.676556
+                        ],
+                        [
+                            -141.0,
+                            41.676556
+                        ],
+                        [
+                            -141.0,
+                            83.113883
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Beluga Whale",
+                "Country": "Russia"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            19.662171,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            81.856374
+                        ],
+                        [
+                            180.0,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            41.185096
+                        ],
+                        [
+                            19.662171,
+                            81.856374
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Beluga Whale",
+                "Country": "Norway"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4.0875,
+                            71.1852
+                        ],
+                        [
+                            31.0176,
+                            71.1852
+                        ],
+                        [
+                            31.0176,
+                            57.8097
+                        ],
+                        [
+                            4.0875,
+                            57.8097
+                        ],
+                        [
+                            4.0875,
+                            71.1852
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Beluga Whale",
+                "Country": "Greenland (Denmark)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.297,
+                            83.627
+                        ],
+                        [
+                            -12.208,
+                            83.627
+                        ],
+                        [
+                            -12.208,
+                            59.777
+                        ],
+                        [
+                            -73.297,
+                            59.777
+                        ],
+                        [
+                            -73.297,
+                            83.627
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Beluga Whale",
+                "Country": "United States (Alaska)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.148909,
+                            71.5388
+                        ],
+                        [
+                            -129.974167,
+                            71.5388
+                        ],
+                        [
+                            -129.974167,
+                            51.214183
+                        ],
+                        [
+                            -179.148909,
+                            51.214183
+                        ],
+                        [
+                            -179.148909,
+                            71.5388
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Species": "Beluga Whale",
+                "Country": "Iceland"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -24.5466,
+                            66.5432
+                        ],
+                        [
+                            -13.4957,
+                            66.5432
+                        ],
+                        [
+                            -13.4957,
+                            63.407
+                        ],
+                        [
+                            -24.5466,
+                            63.407
+                        ],
+                        [
+                            -24.5466,
+                            66.5432
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
