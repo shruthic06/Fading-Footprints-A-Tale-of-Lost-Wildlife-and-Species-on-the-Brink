@@ -1,7 +1,7 @@
 # Fading Footprints: A Tale of Lost Wildlife and Species on the Brink
 
 ## Overview
-**Fading Footprints** is a data visualization project created as a visual contest entry by a team from **Arizona State University**. It tells the compelling story of extinct and endangered animal species worldwide, emphasizing the critical role of **biodiversity** and **keystone species** in ecosystems. Using **scrolly-telling techniques**, **interactive globe visualizations**, and **data-driven charts**, the project aims to raise awareness and inspire action for wildlife conservation.
+**Fading Footprints** is a data visualization project created as a visual contest entry. It tells the compelling story of extinct and endangered animal species worldwide, emphasizing the critical role of **biodiversity** and **keystone species** in ecosystems. Using **scrolly-telling techniques**, **interactive globe visualizations**, and **data-driven charts**, the project aims to raise awareness and inspire action for wildlife conservation.
 
 
 ## Project Objectives
