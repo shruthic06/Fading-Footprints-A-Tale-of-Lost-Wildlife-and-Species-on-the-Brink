@@ -1,5 +1,3 @@
-# Data Visualization - ScrollyTelling
-
 # Fading Footprints: A Tale of Lost Wildlife and Species on the Brink
 
 ## Overview
@@ -90,8 +88,3 @@
 - [IUCN Summary Statistics](https://www.iucnredlist.org/resources/summary-statistics)
 - Additional internet sources for ecological and conservation data
 
-## License
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
-## Contact
-For inquiries, contact the team at Arizona State University via email: [harish.balaj@asu.edu].
