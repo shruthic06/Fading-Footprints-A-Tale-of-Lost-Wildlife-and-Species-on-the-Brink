@@ -56,11 +56,11 @@
 ## Installation and Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/shruthic06/Fading-Footprints-A-Tale-of-Lost-Wildlife-and-Species-on-the-Brink.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd <your-repo-name>
+   cd Fading-Footprints-A-Tale-of-Lost-Wildlife-and-Species-on-the-Brink
    ```
 3. **Install Dependencies** (if applicable, e.g., for JavaScript libraries):
    ```bash
